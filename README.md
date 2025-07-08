@@ -37,7 +37,7 @@ This project predicts flight ticket prices based on features such as airline, du
   - Days Left
   - Price
 
-> The dataset is publicly available in this repository under dataset.csv.
+> The dataset is publicly available in this repository under flight_prediction_data.csv.
 
 ---
 
@@ -86,12 +86,32 @@ This project predicts flight ticket prices based on features such as airline, du
 > The dataset is publicly available in this repository under dataset.csv.
 
 ---
+### 📦 Trained Model (Download Link)
+
+Due to GitHub's file size restrictions, the trained machine learning model (random_forest_model.pkl, approx. 875 MB) has been securely hosted on Google Drive.
+
+You can download the model using the link below:
+
+🔗 [Download Random Forest Model (.pkl - 875 MB)](https://drive.google.com/your-shared-link)
+
+#### 📁 About the Model:
+- The model was trained on a large dataset of over *3 million flight records*
+- It uses a *Random Forest Regressor* for flight price prediction
+- The model was selected based on the best performance metrics among several algorithms including XGBoost, Decision Tree, and CatBoost
+- Evaluation metrics include: *R² Score, **MAE, **MSE, **RMSE*
+- The .pkl file can be loaded in any Python environment using:
+  
+```python
+import pickle
+
+with open(flight.pkl', 'rb') as f:
+    model = pickle.load(f)
 
 ## 🚀 How to Run This Project
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YourUsername/Flight_Price_Prediction.git
+(https://github.com/InduYadav689/Flight_Price_Prediction)
 
 # 2. Install required packages
 pip install -r requirements.txt
