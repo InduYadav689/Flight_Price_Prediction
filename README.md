@@ -1,6 +1,6 @@
 # ✈️ Flight Price Prediction using Machine Learning
 
-This project predicts flight ticket prices based on features such as airline, duration, source/destination, stops, and booking lead time. Using a dataset of over *3.15 million real-world records, several regression algorithms were applied to develop an accurate and scalable solution. The model is deployed using **Streamlit* for real-time interaction.
+This project predicts flight ticket prices based on features such as airline, duration, source/destination, stops, and booking lead time. Using a dataset of over *3 million real-world records, several regression algorithms were applied to develop an accurate and scalable solution. The model is deployed using **Streamlit* for real-time interaction.
 
 ---
 
