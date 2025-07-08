@@ -92,7 +92,7 @@ Due to GitHub's file size restrictions, the trained machine learning model (rand
 
 You can download the model using the link below:
 
-🔗 [Download Random Forest Model (.pkl - 875 MB)](https://drive.google.com/your-shared-link)
+🔗 [Download Random Forest Model (flight.pkl - 875 MB)](https://drive.google.com/file/d/1YOqv7RgPatoYhkMJrzc8A_vScoAD4cGa/view?usp=sharing)
 
 #### 📁 About the Model:
 - The model was trained on a large dataset of over *3 million flight records*
